@@ -63,8 +63,6 @@ public class MainActivity extends AppCompatActivity implements BaseSliderView.On
         adapter = new AdapterTimeline(this, isiTm);
         lv.setAdapter(adapter);
         adapter.notifyDataSetChanged();
-
-
     }
 
     private void hardcodetimeline() {

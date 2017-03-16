@@ -13,11 +13,16 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="15dp"
         android:id="@+id/linearLayout">
-        <com.chabbal.slidingdotsplash.SlidingSplashView
-            android:id="@+id/splash"
+        <!--<com.chabbal.slidingdotsplash.SlidingSplashView-->
+            <!--android:id="@+id/splash"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--app:imageResources="@array/img_id_arr"/>-->
+        <com.daimajia.slider.library.SliderLayout
+            android:id="@+id/slider"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:imageResources="@array/img_id_arr"/>
+            />
     </LinearLayout>
 
     <ListView
